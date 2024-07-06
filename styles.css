@@ -1,0 +1,24 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+span{
+    margin-top: 6px;
+    margin-bottom: 6px; 
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+button{
+    max-width: fit-content;
+}

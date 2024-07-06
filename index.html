@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="https://formsubmit.co/eugeniagramajo.dev@gmail.com" method="POST">
+    <span>
+        <label>Nombre: </label>
+        <input name="name" type="text" required/>
+    </span>
+    <span>
+        <label>Apellidos: </label>
+        <input name="lastname" type="text" required/>
+    </span>
+    <span>
+        <label>Género: </label>
+        <input type="radio" name="gender" value="Femenino" required/> Femenino
+        <input type="radio" name="gender" value="Masculino"/> Masculino
+        <input type="radio" name="gender" value="Otro"/> Otro
+    </span>
+    <span>
+        <label>Correo: </label>
+        <input name="email" type="email" required/>
+    </span>
+    <span class="terms">
+        
+        <label><input name="info" type="checkbox"/>Deseo recibir información sobre novedades y ofertas</label>
+        <label><input name="terms" type="checkbox" required/>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    </span>
+    <input type="hidden" name="_autoresponse" value="Gracias por completar el formulario!">
+    <input type="hidden" name="_captcha" value="true">
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>
